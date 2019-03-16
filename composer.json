@@ -1,0 +1,16 @@
+{
+    "name": "verifica/feriado",
+    "description": "Verifica feriados em uma cidade",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fernando Bino Machado",
+            "email": "fernando.bino.machado@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Feriado\\":"src/classes"}
+    }
+ }
